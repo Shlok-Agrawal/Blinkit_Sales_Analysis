@@ -18,6 +18,15 @@ This project dives into order-level sales data from Blinkit to extract actionabl
 - Used `groupby()` to aggregate sales across fat content, outlet size, item type, location, and establishment year  
 - Structured processed data for direct visualization and KPI extraction
 
+## 📊 Data Visualization (matplotlib)
+
+- Built business-oriented visualizations using `matplotlib.pyplot` functions (`explode`, `unstack()`, `sort_values()`, `tight_layout()`)
+- Visualized key metrics using:
+  - **Pie charts** – Sales by Fat Content, Outlet Size (with exploded slices)
+  - **Bar charts** – Sales by Item Type, Location + Fat Content (stacked/grouped using `unstack()`)
+  - **Line chart** – Sales trends across Establishment Years
+- Applied aesthetic enhancements: custom color palettes, rotated labels, smart legends, axis formatting, grid styling, and layout optimization
+
 ---
 
 ## 📌 Key Performance Indicators (KPIs)
