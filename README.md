@@ -11,14 +11,12 @@ This project dives into order-level sales data from Blinkit to extract actionabl
 
 ---
 
-## 📊 Data Preparation & EDA
+## 📊 Data Preparation & EDA (pandas)
 
-Performed exploratory analysis using `pandas`:
-
-- Cleaned the dataset by handling null values and checking for duplicates
-- Used `groupby()` to calculate total sales across Outlet Size, Fat Content, Item Type, Location, and Establishment Year
-- Applied `sort_values()` to identify top-performing categories
-- Generated descriptive stats like total and average sales to support visual analysis
+- Cleaned categorical inconsistencies using `replace()` and standardized column names for uniform analysis  
+- Engineered key business metrics (total sales, average sales/order, product ratings) directly from raw data  
+- Used `groupby()` to aggregate sales across fat content, outlet size, item type, location, and establishment year  
+- Structured processed data for direct visualization and KPI extraction
 
 ---
 
